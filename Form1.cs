@@ -106,7 +106,7 @@ namespace oidc_winform
         {
             var domain = @"https://[your org].oktapreview.com";//or okta.com
             var oktaAuthorizationServer = "[authz server id]";//security|api
-            var clientId = "[client id]";//from appication|name|general
+            var client_id = "[client id]";//from appication|name|general
             var redirectUrl = @"http://localhost:8080/callback";//this much
             var redirect_uri = System.Net.WebUtility.UrlEncode(redirectUrl);
             var grant_type = "authorization_code";
